@@ -6,8 +6,8 @@ vector: .byte 0, 1, 2, 3, 4, 5, 6, 7
 
 .org 0x150
 
-MIN:    .space 1
-MAX:    .space 1
+MIN:    .byte 128
+MAX:    .byte 0
 
 ; Dirección de comienzo del código
 .text
